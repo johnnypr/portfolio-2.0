@@ -1,6 +1,6 @@
 var image = document.getElementById("dog-walk");
 var change = 0;
-
+var max = 50
 
 function dogMove() {
     image.style.left = change+"px";
@@ -10,4 +10,4 @@ function dogMove() {
     }
 }
 
-setInterval(dogMove,50);
+setInterval(dogMove,max);
